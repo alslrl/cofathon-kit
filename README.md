@@ -8,7 +8,7 @@ AI 코딩 에이전트(Codex)용 개인 작업 지침입니다. 과하게 만들
 git clone --depth 1 https://github.com/alslrl/cofathon-kit .kit && bash .kit/setup.sh
 ```
 
-`setup.sh`가 하는 일: `.kit/AGENTS.md`의 내용을 작업 폴더의 `AGENTS.md` 끝에 덧붙이고(없으면 새로 만듭니다), `REQUIREMENTS.md`와 `INTERVIEW.md`가 없으면 템플릿에서 복사합니다. 이미 있는 파일은 건드리지 않습니다.
+`setup.sh`가 하는 일: `.kit/AGENTS.md`의 내용을 작업 폴더의 `AGENTS.md` 끝에 덧붙이고(없으면 새로 만듭니다), `REQUIREMENTS.md`와 `INTERVIEW.md`가 없으면 템플릿에서 복사합니다. 이미 있는 파일은 건드리지 않습니다. 작업 폴더가 git 저장소면 `.kit/`를 `.git/info/exclude`에 넣어 커밋에서 빠지게 합니다.
 
 설정 후 Codex를 다시 실행해야 지침을 읽습니다.
 
