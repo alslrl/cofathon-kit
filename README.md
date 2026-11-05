@@ -16,7 +16,7 @@ git clone --depth 1 https://github.com/alslrl/cofathon-kit .kit && bash .kit/set
 
 - `AGENTS.md`: 작업 원칙과 규칙 (Codex가 자동으로 읽음)
 - `templates/`: 요구사항 표, 계획, 담당자 대화, 검증 방법 절의 모양
-- `guides/`: 인터뷰 방법(interview.md), 서술형 대비 문서 형식(qa-prep.md). 필요한 세션만 읽음
+- `guides/`: 인터뷰 방법(interview.md), 서술형 대비 문서 형식(qa-prep.md), 과제 지도(task-map.md). 필요한 세션만 읽음
 - `.agents/skills/handoff/`: 새 세션 인수인계 문서 작성 스킬 (참고용, `setup.sh`는 설치하지 않음)
 
 과제 결과물이나 정답 코드는 들어 있지 않습니다.
