@@ -81,7 +81,7 @@
 
 ## 커밋
 - PLAN 단계 하나를 끝내고 확인했으면 커밋한다. 자기 세션이 고친 파일만 경로를 지정해 커밋하고, 메시지는 "R15: CSV 형식·누락 검사"처럼 ID로 시작한다.
-- git은 경로를 지정해서만 쓴다. git add . / git add -A / git commit -a / git stash / git reset --hard / git checkout -- . / git clean 은 다른 세션의 작업을 쓸어 가거나 지우므로 쓰지 않는다.
+- git은 경로를 지정해서만 쓴다. git add . / git add -A / git commit -a / git stash / git reset --hard / git checkout -- . / git clean 은 다른 세션의 작업을 쓸어 가거나 지우므로 쓰지 않는다. git commit --amend도 맨 위 커밋이 다른 세션 것일 수 있으므로 쓰지 않고, 고칠 것은 새 커밋으로 한다.
 - 커밋이 git 사용자 이름·이메일 미설정으로 실패하면 이 폴더에만 설정하고(git config user.name "Seho Sohn (Codex)", git config user.email codex@localhost) 다시 커밋한다. --global은 쓰지 않는다.
 - 커밋이 실패하면 멈추지 말고 실패 메시지를 한 줄 보고한 뒤 작업을 계속한다.
 - git push는 하지 않는다. 메인 세션은 킷 설치와 요구사항 표를 만든 직후 첫 커밋을 한다.
